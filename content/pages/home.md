@@ -1,30 +1,29 @@
 ---
 template: HomePage
 slug: ''
-title: Yellowcake
-featuredImage: 'https://ucarecdn.com/159203d3-881d-4218-baa1-ca4427b48d0d/'
-subtitle: ' Welcome to the ultimate Gatsby and Netlify starter project.'
+title: Color Scicence Studios
+featuredImage: 'https://s3-us-west-2.amazonaws.com/assets.michaelburton.co/color/_MG_8831.jpg'
+subtitle: 'Blending adept skillsets in web technologies and visual arts'
 meta:
-  description: This is a meta description.
-  title: The Ultimate Gatsby Starter
+  description: Wedding Photography, Photobooth Rentals, Portraits, 3D Printing, Web Development.
+  title: CSS Web & Photo Co.
 ---
-Yellowcake is an opinionated starter project created by [Thrive Digital](https://thriveweb.com.au/) a [Gold Coast Web Design](https://thriveweb.com.au/) studio. to help you create lightening fast websites with [Gatsby](https://gatsbyjs.org) and [Netlify CMS](https://netlifycms.org).
 
-View the [project overview](https://thriveweb.com.au/the-lab/yellowcake-gatsby-react-js-starter-project/) and the [docs](https://github.com/thriveweb/yellowcake/blob/master/README.md).
+Color Science Studios is a creative design house focusing on combining modern technologies with captivating visuals and exceptional service. Founder, [Mike B](https://itsmikeb.com/), is in his second start up, after launching [SF City Hall Photo](https://sfcityhallphoto.com/) back in California before making a switch into a career in tech. Now living in Florida, Mike is back in the creative world combining his new skills in software engineering with a sharpened focus and increased technical skills.
+CSS is proud to offer a vast array of services, from [weddings](/weddings), [portraits](/portraits), [photobooth rentals](/booth), to custom web development and 3D Printing. [Gatsby](https://gatsbyjs.org) and .
 
-# Features
+<!-- View the [project overview](https://thriveweb.com.au/the-lab/yellowcake-gatsby-react-js-starter-project/) and the [docs](https://github.com/thriveweb/yellowcake/blob/master/README.md).
+ -->
 
-* **[Gatsby](https://gatsbyjs.org)** static site generator
-* **[Netlify CMS](https://github.com/netlify/netlify-cms)** for content management
-* Dynamic menus and forms
-* **[Mailchimp](http://mailchimp.com)** and **[Uploadcare](https://uploadcare.com)** integrations
-* Fully responsive layout for mobile and widescreen browsing
-* Blog searching and paging functionality
-* Seamless image and content sliders
-* Instagram feed integration
+# Services
 
-## Get started
+- **[Wedding Photography](/weddings)** Specializing in Event and Wedding Photography
+- **[Tower Booth](/booth#tower)** Multiple Booth Configuration Options
+- Dynamic menus and forms
+- **[Videography](http://vimeo.com/dashurpa)** and **[github](https://github.com/burt23)**
+
+<!-- ## Get started
 
 View the [Netlify CMS Docs](https://www.netlifycms.org/docs/) and the [Netlify CMS Repo](https://github.com/netlify/netlify-cms).
 
-[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/thriveweb/yellowcake&stack=cms)
+[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/thriveweb/yellowcake&stack=cms) -->

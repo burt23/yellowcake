@@ -2,8 +2,8 @@ const postcssPresetEnv = require('postcss-preset-env')
 
 module.exports = {
   siteMetadata: {
-    title: 'Yellowcake',
-    siteUrl: 'https://yellowcake.netlify.com'
+    title: 'Color Science Studios',
+    siteUrl: 'https://colorsciencestudios.com'
   },
   plugins: [
     'gatsby-plugin-react-helmet',
@@ -44,15 +44,15 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: 'yellowcake',
-        short_name: 'yellowcake',
+        name: 'colorScienceStudios',
+        short_name: 'css',
         start_url: '/',
-        background_color: '#00C2BD',
-        theme_color: '#00C2BD',
+        background_color: '#f5f5f5',
+        theme_color: '#1746fb',
         // Enables "Add to Homescreen" prompt and disables browser UI (including back button)
         // see https://developers.google.com/web/fundamentals/web-app-manifest/#display
         display: 'standalone',
-        icon: `${__dirname}/static/images/logo.svg` // This path is relative to the root of the site.
+        icon: `${__dirname}/static/images/logo.png` // This path is relative to the root of the site.
       }
     },
 
@@ -88,6 +88,17 @@ module.exports = {
             options: {
               maxWidth: 800,
               linkImagesToOriginal: false
+            }
+          },
+          {
+            resolve: `gatsby-source-instagram`,
+            options: {
+              username: `colorsciencestudios`,
+              access_token:
+                'EAACj5pKQdQQBAOVShK59HsTNI2KMIAIjz9u9ESsM4donNZB0xLud81n2UnkIlPrEf1WLlzLChFyKW64eaZBDN8sZBKwN0iXWTp5UbCGh11yJKieABSS7z0VkMZCzbp1RPcEDtoQ6DwLCTV07yZAlcaDYm8vrzPsCfr1XyfBtugAZDZD',
+              instagram_id: '2381399795492473',
+              paginate: 10,
+              maxPosts: 100
             }
           },
           `gatsby-remark-responsive-iframe`

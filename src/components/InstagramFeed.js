@@ -8,8 +8,10 @@ import './InstagramFeed.css'
 
 export default class InstagramFeed extends Component {
   static defaultProps = {
-    accessToken: '1353697840.1677ed0.5a1cbfbc18f84915aa0d9a0bd02bff5a',
-    count: 20
+    accessToken: '180210696746244|yrRxROx5-H5dSBKj--jGCx74ZnQ',
+    // 'EAACj5pKQdQQBAI6LkF5ZBFFN8K0Gl5vI14xHK3twXeYO5ai1yuJS0zDpWIAXCQySxFMBgZBz8CZCRzMvGcdsKW20N4bidoqOQjxwfmG9W0ToLtjnXI639CagWYV2W7ZCyXxmWNBCA8n6kFDE0oT37dxDLyy468htVJQm4ZB54xvnNRueDMC02MHyMI7vTxH2UjuZBjKB35XiaZBfgHwXWnu',
+    // accessToken: '1353697840.1677ed0.5a1cbfbc18f84915aa0d9a0bd02bff5a',
+    count: 200
   }
 
   state = {
@@ -42,9 +44,9 @@ export default class InstagramFeed extends Component {
       ? localStorage.getItem('instaFeed')
       : false
 
-    if (!instaFeed) {
+    if (!instaFeed || instaFeed === '[]') {
       typeof window !== 'undefined' &&
-        fetch(`https://instagramapi.thrivex.io/?ref=${this.props.accessToken}`)
+        fetch(`https://instagramapi.thrivex.io/?ref=${this.props.accessToken}`) // TODO: apply for CSS access token
           .then(res => res.json())
           .then(data => {
             instaFeed = data && data.items ? data.items : []
