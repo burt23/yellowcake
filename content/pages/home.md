@@ -10,7 +10,7 @@ meta:
 ---
 
 Color Science Studios is a creative design house focusing on combining modern technologies with captivating visuals and exceptional service. Founder, [Mike B](https://itsmikeb.com/), is in his second start up, after launching [SF City Hall Photo](https://sfcityhallphoto.com/) back in California before making a switch into a career in tech. Now living in Florida, Mike is back in the creative world combining his new skills in software engineering with a sharpened focus and increased technical skills.
-CSS is proud to offer a vast array of services, from [weddings](/weddings), [portraits](/portraits), [photobooth rentals](/booth), to custom web development and 3D Printing. [Gatsby](https://gatsbyjs.org) and .
+CSS is proud to offer a vast array of services, from [weddings](/weddings), [portraits](/portraits), [photobooth rentals](/booth), to custom web development and 3D Printing.
 
 <!-- View the [project overview](https://thriveweb.com.au/the-lab/yellowcake-gatsby-react-js-starter-project/) and the [docs](https://github.com/thriveweb/yellowcake/blob/master/README.md).
  -->
@@ -18,9 +18,10 @@ CSS is proud to offer a vast array of services, from [weddings](/weddings), [por
 # Services
 
 - **[Wedding Photography](/weddings)** Specializing in Event and Wedding Photography
-- **[Tower Booth](/booth#tower)** Multiple Booth Configuration Options
-- Dynamic menus and forms
-- **[Videography](http://vimeo.com/dashurpa)** and **[github](https://github.com/burt23)**
+- **[Portraiture](/portraits)** Professional headshots and other on location shoots
+- **[Tower Booth](/booth#tower)** Classic enclosed tower photobooth with unlimited prints
+- **Engagement Shoots** 30min, 1hr, and 2hr location shoots available
+  <!-- - **[Videography](http://vimeo.com/dashurpa)** and **[github](https://github.com/burt23)** -->
 
 <!-- ## Get started
 

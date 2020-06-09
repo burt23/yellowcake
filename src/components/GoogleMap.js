@@ -2,7 +2,8 @@ import React, { Component } from 'react'
 import GoogleMapReact from 'google-map-react'
 import { MapPin } from 'react-feather'
 
-let mapkey = ''
+let mapkey = 'AIzaSyDHfQ9YeZ-NXiLHPhSOp3yXHpiI35CQJrg'
+
 if (process.env.NETLIFY_MAP_KEY) {
   mapkey = process.env.NETLIFY_MAP_KEY
 }
@@ -10,8 +11,8 @@ if (process.env.NETLIFY_MAP_KEY) {
 class GoogleMap extends Component {
   static defaultProps = {
     center: {
-      lat: -28.0914483,
-      lng: 153.4425208
+      lat: 30.290056,
+      lng: -81.389008
     },
     zoom: 14
   }
@@ -25,7 +26,7 @@ class GoogleMap extends Component {
           defaultCenter={this.props.center}
           defaultZoom={this.props.zoom}
         >
-          <Marker lat={-28.0914483} lng={153.4425208} text={'Kreyser Avrora'} />
+          <Marker lat={30.290056} lng={-81.389008} text={'Jax Beach'} />
         </GoogleMapReact>
       </div>
     )

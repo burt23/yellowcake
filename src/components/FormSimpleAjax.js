@@ -22,16 +22,20 @@ class Form extends React.Component {
 
   handleSubmit = e => {
     e.preventDefault()
+    console.log('in handle submit...')
     if (this.state.disabled) return
+    console.log('sending form...')
 
     const form = e.target
     const data = serialize(form)
+    console.log('sending data...', data)
     this.setState({ disabled: true })
     fetch(form.action + '?' + stringify(data), {
       method: 'POST'
     })
       .then(res => {
         if (res.ok) {
+          console.log('got a response', res)
           return res
         } else {
           throw new Error('Network error')
@@ -66,7 +70,7 @@ class Form extends React.Component {
           name={name}
           action={action}
           onSubmit={this.handleSubmit}
-          data-netlify=""
+          data-netlify="true"
           netlify-recaptcha=""
         >
           {this.state.alert && (
@@ -160,7 +164,7 @@ class Form extends React.Component {
           </label>
           <div
             className="g-recaptcha"
-            data-sitekey="6LfKN3kUAAAAAGIM1CbXmaRZx3LIh_W2twn1tzkA"
+            data-sitekey="6LeyMwEVAAAAAMhCID-_D-M9VF1-WhHqSdRY5C2Z"
           />
           {!!subject && <input type="hidden" name="subject" value={subject} />}
           <input type="hidden" name="form-name" value={name} />

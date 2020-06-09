@@ -1,19 +1,19 @@
 ---
 template: HomePage
 slug: 'printing'
-title: Color Scicence Studios
+title: Additive Manufacturing
 featuredImage: 'https://ucarecdn.com/159203d3-881d-4218-baa1-ca4427b48d0d/'
-subtitle: 'Blending adept skillsets in web technologies and visual arts'
+subtitle: 'Serving the Jacksonville Community with 3D printing specialization'
 meta:
   description: Wedding Photography, Photobooth Rentals, Portraits, 3D Printing, Web Development.
   title: CSS Web & Photo Co.
 ---
 
-Yellowcake is an opinionated starter project created by [Thrive Digital](https://thriveweb.com.au/) a [Gold Coast Web Design](https://thriveweb.com.au/) studio. to help you create lightening fast websites with [Gatsby](https://gatsbyjs.org) and [Netlify CMS](https://netlifycms.org).
+Did you know that 3D printing can produce high quality, low cost parts, built here in America? By partnering with [3DX Tech](https://3dxtech.com/), we are able to use the highest quality filaments, proudly made in America. Filaments range from the extremely versilate PETG, ASA for automotive and outdoor applications, and carbon fiber and other advanced material.
 
-View the [project overview](https://thriveweb.com.au/the-lab/yellowcake-gatsby-react-js-starter-project/) and the [docs](https://github.com/thriveweb/yellowcake/blob/master/README.md).
+You can check out some of the 3D printed parts I've worked on at thingiverse.
 
-# Features
+<!-- # Services
 
 - **[Gatsby](https://gatsbyjs.org)** static site generator
 - **[Netlify CMS](https://github.com/netlify/netlify-cms)** for content management
@@ -28,4 +28,4 @@ View the [project overview](https://thriveweb.com.au/the-lab/yellowcake-gatsby-r
 
 View the [Netlify CMS Docs](https://www.netlifycms.org/docs/) and the [Netlify CMS Repo](https://github.com/netlify/netlify-cms).
 
-[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/thriveweb/yellowcake&stack=cms)
+[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/thriveweb/yellowcake&stack=cms) -->
