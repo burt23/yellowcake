@@ -2,7 +2,7 @@
 template: ComponentsPage
 slug: portraits
 title: Portraits
-featuredImage: 'https://ucarecdn.com/df0dc650-6938-412f-aefb-2019d2349e13/'
+featuredImage: 'https://s3-us-west-2.amazonaws.com/assets.michaelburton.co/IMG_9350-dualiso-2.jpg'
 subtitle: Professional portraits and headshots
 section1: >-
   ## Looking for a professional headshot? 

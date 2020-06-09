@@ -2,7 +2,7 @@
 template: ComponentsPage
 slug: about
 title: About
-featuredImage: 'https://ucarecdn.com/df0dc650-6938-412f-aefb-2019d2349e13/'
+featuredImage: 'https://s3-us-west-2.amazonaws.com/assets.michaelburton.co/color/_MG_8194.jpg'
 subtitle: A little bit about the backstory
 section1: >-
   ## How this all started 
@@ -21,8 +21,8 @@ section1: >-
 accordion:
   - description: Exceed customer expectations by delivering exceptional quality and value
     title: What is your companies mission statement
-  - description: Yes we are fully insured for up to $1Million and are happy to provide documentation upon request
-    title: Do you have business insurance
+  # - description: Yes we are fully insured for up to $1Million and are happy to provide documentation upon request
+  #   title: Do you have business insurance
   - description: Yes! I personally love shooting cars, motorcycles, fitness etc so please reach out to discuss collaboration possibilities
     title: Do you do other types of photography?
 # gallery:

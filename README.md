@@ -3,10 +3,11 @@
 [![styled with prettier](https://img.shields.io/badge/styled_with-prettier-ff69b4.svg?style=flat-square)](https://github.com/prettier/prettier)
 [![dependencies](https://david-dm.org/jinksi/netlify-cms-react-starter.svg?style=flat-square)](https://david-dm.org/jinksi/gatsbro)
 
-An opinionated starter project for creating lightning-fast websites with [Gatsby](https://gatsbyjs.org) v2 and [Netlify CMS](https://netlifycms.org) v2. Made by [Thrive Web Design on the Gold Coast, Australia](https://thriveweb.com.au) 
+An opinionated starter project for creating lightning-fast websites with [Gatsby](https://gatsbyjs.org) v2 and [Netlify CMS](https://netlifycms.org) v2. Made by [Thrive Web Design on the Gold Coast, Australia](https://thriveweb.com.au)
 
 - **[Gatsby](https://gatsbyjs.org)** static site generator
 - **[Netlify CMS](https://github.com/netlify/netlify-cms)** for content management
+  [![Netlify Status](https://api.netlify.com/api/v1/badges/750cd486-d289-4e52-8808-0313919aed4d/deploy-status)](https://app.netlify.com/sites/adoring-dijkstra-96ea25/deploys)
 
 ## See also
 

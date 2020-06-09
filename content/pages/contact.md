@@ -2,7 +2,7 @@
 template: ContactPage
 slug: contact
 title: Contact Page
-featuredImage: https://ucarecdn.com/e22a858a-b420-47af-99f6-ed54b6860333/
+featuredImage: https://s3-us-west-2.amazonaws.com/assets.michaelburton.co/color/_MG_8296.jpg
 subtitle: Let's get this conversation started
 address: 'Serving The Greater Northern Florida Jacksonville/Georgia Area'
 phone: 4154184786

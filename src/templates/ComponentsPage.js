@@ -15,10 +15,10 @@ export const ComponentsPageTemplate = ({
   subtitle,
   featuredImage,
   section1,
-  section2,
-  video,
-  videoPoster,
-  videoTitle,
+  // section2,
+  // video,
+  // videoPoster,
+  // videoTitle,
   accordion,
   body,
   gallery,
@@ -45,21 +45,21 @@ export const ComponentsPageTemplate = ({
       </section>
     )}
 
-    {section2 && (
+    {/* {section2 && (
       <section className="section">
         <div className="container">
           <Content source={section2} />
         </div>
       </section>
-    )}
+    )} */}
 
-    {video && (
+    {/* {video && (
       <section className="BackgroundVideo-section section">
         <BackgroundVideo poster={videoPoster} videoTitle={videoTitle}>
           {video && <source src={video} type="video/mp4" />}
         </BackgroundVideo>
       </section>
-    )}
+    )} */}
 
     {accordion && (
       <section className="section">
@@ -104,10 +104,6 @@ export const pageQuery = graphql`
         subtitle
         featuredImage
         section1
-        section2
-        video
-        videoPoster
-        videoTitle
         accordion {
           title
           description
