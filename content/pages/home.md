@@ -1,7 +1,7 @@
 ---
 template: HomePage
 slug: ''
-title: Color Scicence Studios
+title: Color Science Studios
 featuredImage: 'https://s3-us-west-2.amazonaws.com/assets.michaelburton.co/color/_MG_8831.jpg'
 subtitle: 'Blending adept skillsets in web technologies and visual arts'
 meta:
