@@ -114,10 +114,12 @@
 /* ---------------- Slogan ---------------- */
 
 #taglineSlogan {
-  font-size: 0.25em;
+  font-size: 1.25em;
 }
+
 #taglineSlogan span:active {
   text-shadow: none;
+  font-size: 1.5em;
 }
 
 /* Below just some styling for the meta info */

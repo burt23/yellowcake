@@ -87,7 +87,7 @@ class CitySvg extends React.Component {
       <svg
         xmlns="http://www.w3.org/2000/svg"
         ref={c => (this.wrapper = c)}
-        viewBox="0 0 1031.41 300"
+        viewBox="0 0 1031.41 400"
         className="citySVGContainer"
       >
         <Switch />
