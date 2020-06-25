@@ -1,5 +1,5 @@
 .Nav {
-  color: var(--lightGrey);
+  color: var(--secondary);
   position: sticky;
   padding: 2rem;
   top: 0;
@@ -7,7 +7,7 @@
   border-bottom: 1px solid var(--secondary);
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.025);
 
-  background: var(--secondary);
+  background: #fff !important;
 }
 
 .Nav--Container {
@@ -15,7 +15,7 @@
   align-items: center;
   height: 6rem;
 
-  background: var(--secondary);
+  /* background: var(--lightGrey); */
 }
 
 .Nav--Links {
@@ -41,10 +41,10 @@
 .NavLink {
   padding: 0.5rem 1rem;
   display: block;
-  font-weight: 500;
+  font-weight: 400;
   transition: color 0.2s, border-bottom-color 0.2s;
   /* color: inherit; */
-  color: var(--papaya) !important;
+  color: var(--primary) !important;
   /* background: var(--secondary); */
   text-decoration: none;
   border-bottom: 2px solid;
@@ -55,9 +55,9 @@
 .NavLink:hover,
 .NavLink.active,
 .NavLink:focus {
-  color: var(--primary);
+  color: var(--contrast);
   /* border-bottom-color: currentColor; */
-  border-bottom-color: var(--papaya);
+  border-bottom-color: var(--contrast);
   /* border-bottom-color: currentColor; */
 }
 
