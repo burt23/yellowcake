@@ -57,6 +57,7 @@ export class Navigation extends Component {
             {/* <NavLink to="/printing/">3D Printing</NavLink> */}
             <NavLink to="/about/">About</NavLink>
             <NavLink to="/contact/">Contact</NavLink>
+            {/* <NavLink to="/blog/">Blog</NavLink> */}
 
             {/* <div
               className={`Nav--Group ${

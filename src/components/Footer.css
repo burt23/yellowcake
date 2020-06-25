@@ -1,6 +1,6 @@
 .footer {
   padding: 2rem 0;
-  background: var(--secondary);
+  background: var(--darkGrey);
   color: whitesmoke;
   font-size: 1.2rem;
 }
