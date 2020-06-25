@@ -4,16 +4,18 @@ import { graphql } from 'gatsby'
 import PageHeader from '../components/PageHeader'
 import Content from '../components/Content'
 import Layout from '../components/Layout'
+import CitySVG from '../components/CitySVG'
 
 // Export Template for use in CMS preview
 export const HomePageTemplate = ({ title, subtitle, featuredImage, body }) => (
   <main className="Home">
-    <PageHeader
+    {/* <PageHeader
       large
       title={title}
       subtitle={subtitle}
       backgroundImage={featuredImage}
-    />
+    /> */}
+    <CitySVG />
 
     <section className="section">
       <div className="container">

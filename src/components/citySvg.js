@@ -1,5 +1,5 @@
-import React from "react"
-import "./citySvg.css"
+import React from 'react'
+import './citySvg.css'
 const Switch = () => (
   <div id="switch-container">
     <input type="checkbox" className="toggle" id="switch" />
@@ -71,15 +71,15 @@ class CitySvg extends React.Component {
       this.houseFive,
       this.houseSix,
       this.houseSeven,
-      this.wheel2,
+      this.wheel2
     ]
-    this.index = "10"
+    this.index = '10'
   }
 
   mouseAction(evt) {
     const index = evt.currentTarget.dataset.project
     console.log(this.houses[index])
-    this.houses[index].classList.toggle("active")
+    this.houses[index].classList.toggle('active')
   }
 
   render() {
@@ -88,7 +88,7 @@ class CitySvg extends React.Component {
         xmlns="http://www.w3.org/2000/svg"
         ref={c => (this.wrapper = c)}
         viewBox="0 0 1031.41 300"
-        className="container"
+        className="citySVGContainer"
       >
         <Switch />
         <g

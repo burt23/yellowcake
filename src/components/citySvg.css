@@ -7,19 +7,19 @@
   box-sizing: border-box;
 }
 
-.container {
+.citySVGContainer {
   top: 0;
   left: 0;
-  height: 100vh !important;
+  height: 50vmin;
   width: 97vw !important;
-  position: absolute;
+  position: relative;
   display: flex;
 }
 
 .house {
   cursor: pointer;
   font-size: 30px;
-  font-family: "Oak", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: 'Oak', 'Helvetica Neue', Helvetica, Arial, sans-serif;
   font-weight: 700;
 }
 .house .bg-fill {
