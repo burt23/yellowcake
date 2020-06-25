@@ -5,7 +5,7 @@ import PageHeader from '../components/PageHeader'
 import Content from '../components/Content'
 import Layout from '../components/Layout'
 import TaglineHero from '../components/TaglineHero'
-import CitySVG from '../components/CitySvg'
+import CitySVG from '../components/CitySVG'
 
 // Export Template for use in CMS preview
 export const HomePageTemplate = ({ title, subtitle, featuredImage, body }) => (
