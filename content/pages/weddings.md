@@ -7,7 +7,10 @@ subtitle: Exceeding expectations on your most important day
 section1: >-
   ## From start to finish 
 
-  As with most of my photography, I view wedding photography from a photojournalist perspective. I aim to tell a story of the day, one that involves everything from the preparation, to the final dances at the end of the night.
+  With most of my photography, I lean towards a photojournalist perspective. I aim to document the entire day, capturing the essence of reliving that event. From preparation, to final dances, the story of a wedding is one couples will always remember. Hiring a professional to document your wedding allows you a concrete way to recall your event and all the great people you shared it with.
+
+# #   When it comes to wedding photography I'd say my three biggest strengths are experience, staying calm, and composition. For experience, having photographed many dozen weddings I've gained a solid understanding for the timing of the event. Several key moments should must be captured
+#  # one that involves everything from the preparation, to the final dances at the end of the night.
 
 # section2: |-
 #   ## Check us out.
@@ -35,7 +38,7 @@ accordion:
     title: What kind of gear do you use?
   - description: Second shooters are available on request for both photography and videography. Typically second/third shooter jobs are needed for videography/photography joint contracts, and jobs $2500 or higher.
     title: Do you use a second shooter?
-  - description: Photos are delivered via weblink or via USB at additional extra charge. Web links are included in all photo packages, and clients have full access to the unrestricted Hi-Res JPEG outputs from their session. Once clients have their pictures they may print them at their convenience on any available printer. MPix is an online servie I personally recommend, whereas Costco is also an excellent in person option. Photo turnaround ultimately depends on the number of photos taken and availability, but is guarenteed within 30 days. For photobooth rentals, headshots photos are guarentted withing 1 week.
+  - description: Photos are typically delivered via weblink. If customer would prefer a physcial drive, a USB can be arranged at an additional cost. Web links are included in all photo packages, and clients have full access to the unrestricted Hi-Res JPEG outputs from their session. Once clients have their pictures they may print them at their convenience on any available printer (We make licensing and downloading easy! Simply download and print, share, link, etc. No watermarks, full-size files). Photo turnaround guarenteed within 14 calendar days. For photobooth rentals, headshots photos are guarentteed delivery within 1 week (7 days).
     title: How do I get my Photos?
 gallery:
   - alt: Available to shoot on location
