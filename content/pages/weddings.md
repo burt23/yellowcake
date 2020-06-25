@@ -46,7 +46,7 @@ gallery:
     title: Full Hi-Res Images
   - alt: Engagement Shoots
     image: 'https://s3-us-west-2.amazonaws.com/assets.michaelburton.co/IMG_2182.jpg'
-    title: B&W && Color Edits
+    title: B&W & Color Edits
 meta:
   description: This is a meta description.
   title: Components Page

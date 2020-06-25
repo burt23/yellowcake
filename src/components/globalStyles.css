@@ -1,10 +1,14 @@
 :root {
   --primary: #1746fb;
-  --secondary: #000;
+  --secondary: #05103b;
+  --contrast: #0ab8fa;
   --lightGrey: whitesmoke;
+  --papaya: #fff1d0;
   --midGrey: #cacaca;
   --darkGrey: #272727;
+  --midBlue: #0b217a;
   --danger: #ff3d3d;
+  --yellow: #faee2f;
   --font-primary: 'Open Sans', sans-serif;
   --font-system: system-ui; /* postcssPresetEnv */
   --borderRadius: 3px;
@@ -37,10 +41,10 @@ body {
   font-family: var(--font-system);
   min-height: 100%;
   position: relative;
-  background: white;
-  color: var(--secondary);
-  font-size: 1.6em;
-  font-weight: 400;
+  background: var(--secondary);
+  color: var(--lightGrey);
+  font-size: 1.8em;
+  font-weight: 300;
   letter-spacing: 0.01em;
   line-height: 1.6;
   -webkit-font-smoothing: antialiased;
@@ -48,6 +52,9 @@ body {
 
 a {
   color: var(--primary);
+  text-decoration: none;
+  color: var(--contrast);
+  font-size: 2.3rem;
 }
 
 strong {
@@ -69,6 +76,13 @@ h6 {
   margin-bottom: 0.5em;
 }
 
+h1 {
+  font-size: 5rem;
+}
+
+h2 {
+  font-size: 3.5rem;
+}
 pre {
   background: var(--lightGrey);
   line-height: 1.45;
@@ -155,7 +169,7 @@ blockquote {
 .section {
   width: 100%;
   padding: 5rem 0;
-  border-bottom: 1px solid #f1f1f1;
+  border-bottom: 1px solid var(--secondary);
 }
 .section:last-child {
   border: 0;
@@ -231,4 +245,11 @@ blockquote {
   display: flex;
   align-items: center;
   justify-content: center;
+}
+
+.rc-anchor-normal .rc-anchor-checkbox-label {
+  color: var(--papaya);
+}
+.rc-anchor-light.rc-anchor-normal {
+  background-color: var(--secondary) !important;
 }

@@ -1,17 +1,21 @@
 .Nav {
-  background: #fff;
-  color: '#1f1f1f';
+  color: var(--lightGrey);
   position: sticky;
+  padding: 2rem;
   top: 0;
   z-index: 2;
-  border-bottom: 1px solid var(--lightGrey);
+  border-bottom: 1px solid var(--secondary);
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.025);
+
+  background: var(--secondary);
 }
 
 .Nav--Container {
   display: flex;
   align-items: center;
   height: 6rem;
+
+  background: var(--secondary);
 }
 
 .Nav--Links {
@@ -39,17 +43,22 @@
   display: block;
   font-weight: 500;
   transition: color 0.2s, border-bottom-color 0.2s;
-  color: inherit;
+  /* color: inherit; */
+  color: var(--papaya) !important;
+  /* background: var(--secondary); */
   text-decoration: none;
   border-bottom: 2px solid;
   border-bottom-color: transparent;
+  /* border-bottom-color: var(--papaya); */
 }
 
 .NavLink:hover,
 .NavLink.active,
 .NavLink:focus {
   color: var(--primary);
-  border-bottom-color: currentColor;
+  /* border-bottom-color: currentColor; */
+  border-bottom-color: var(--papaya);
+  /* border-bottom-color: currentColor; */
 }
 
 .Nav--Group {
