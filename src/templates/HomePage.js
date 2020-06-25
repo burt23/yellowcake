@@ -4,7 +4,7 @@ import { graphql } from 'gatsby'
 import PageHeader from '../components/PageHeader'
 import Content from '../components/Content'
 import Layout from '../components/Layout'
-import CitySVG from '../components/CitySVG'
+import CitySVG from '../components/CitySvg'
 import TaglineHero from '../components/TaglineHero'
 
 // Export Template for use in CMS preview
