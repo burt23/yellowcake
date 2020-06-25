@@ -2,10 +2,13 @@
   --primary: #1746fb;
   --secondary: #05103b;
   --contrast: #0ab8fa;
+  --blush: #fde8e9;
+  --pale: #f3d9dc;
   --lightGrey: whitesmoke;
   --papaya: #fff1d0;
   --midGrey: #cacaca;
   --darkGrey: #272727;
+  --lightBlue: #93b7be;
   --midBlue: #0b217a;
   --danger: #ff3d3d;
   --yellow: #faee2f;
@@ -41,8 +44,8 @@ body {
   font-family: var(--font-system);
   min-height: 100%;
   position: relative;
-  background: var(--secondary);
-  color: var(--lightGrey);
+  background: var(--lightBlue);
+  color: var(--secondary);
   font-size: 1.8em;
   font-weight: 300;
   letter-spacing: 0.01em;
@@ -150,6 +153,7 @@ blockquote {
 }
 .taCenter {
   text-align: center;
+  padding: 3.5rem 2rem 0 2rem;
 }
 .taLeft {
   text-align: left;
@@ -247,9 +251,7 @@ blockquote {
   justify-content: center;
 }
 
-.rc-anchor-normal .rc-anchor-checkbox-label {
-  color: var(--papaya);
-}
-.rc-anchor-light.rc-anchor-normal {
-  background-color: var(--secondary) !important;
+#homeMainSection {
+  background-color: var(--papaya);
+  color: var(--secondary);
 }

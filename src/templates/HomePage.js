@@ -19,7 +19,7 @@ export const HomePageTemplate = ({ title, subtitle, featuredImage, body }) => (
     <TaglineHero />
     <CitySVG />
 
-    <section className="section">
+    <section className="section" id="homeMainSection">
       <div className="container">
         <Content source={body} />
       </div>
